@@ -7,7 +7,7 @@ from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, PORT
 from plugins import web_server
 import pyrogram.utils
 from aiohttp import web
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002580227557
 
 name = """
 Links Sharing Started
