@@ -14,7 +14,7 @@ API_HASH = os.environ.get("API_HASH", "")
 ##---------------------------------------------------------------------------------------------------
 
 #Main 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7932127170"))
 PORT = os.environ.get("PORT", "8010")
 
 ##---------------------------------------------------------------------------------------------------
@@ -30,7 +30,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "") #No Need keep it blank
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1524473035").split()):
+    for x in (os.environ.get("ADMINS", "7932127170").split()):
         ADMINS.append(int(x))
     if OWNER_ID not in ADMINS:
         ADMINS.append(OWNER_ID)
