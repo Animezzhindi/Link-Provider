@@ -73,7 +73,7 @@ async def start_command(client: Bot, message: Message):
         )
         
         await message.reply_text(
-            "<b><i>A link bot made by Ocean Team, to give you your desired channel links.</i></b>",
+            "<b><i>A link bot made by Anime Community India, to give you your desired channel links.</i></b>",
             reply_markup=inline_buttons
         )
         
